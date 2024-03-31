@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Mentor/Peer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/Logo.jpg"/>
+</head>
+
+<body>
+    <header>
+        <nav><img id="Logo" src="assets/logo/Logo.jpg"></nav>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li class="dropdown dropbtn">Find Community
+                <ul class="dropdown-content">
+                  <li class="dropdown-item"><a href="find.html">Find Mentors</a></li>
+                  <li class="dropdown-item"><a href="../findmy.html">Find Members</a></li>
+                </ul>
+            </li>
+            <li><a href="../to/to.html">To-Do List</a></li>
+            <li><a href="../contatcus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!--  section 1 - Naming   -->
+    <div class="heading">
+        <h1 class="naming"> The Right Mentor, The Right Guidance </h1>
+    </div>
+
+    <!-- Section 4 - Search bar  -->
+    <div class="search-bar">
+        <div class="typing_space" style="border-radius: 8px;">
+            <input class="space" placeholder="Search for mentor, enter name or skills." id="searchspace">
+        </div>
+
+        <div class="search_logo">
+            <i class="fa-solid fa-magnifying-glass" style="color: white; background-color:#1e07a2; cursor:pointer"
+                onclick="search()"></i>
+        </div>
+    </div>
+    <div>
+        <h5 id="msg" style="color: white; margin-left:45%;"></h5>
+    </div>
+
+    <!-- Section 5 : Member Cards  -->
+    <div class="cards">
+        <div class="row">
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="sona.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Sona Anatomy</p>
+                            <p class="about-sec">Passionate about exploring the frontiers of artificial intelligence. With a strong foundation in computer science, I am eager to delve deeper into machine learning, neural networks, and data analytics. I thrive on challenges and am committed to driving innovation in the field.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> CSS</p>
+                        <p> JavaScript </p>
+                        <p> MongoDB </p>
+                        <p> React.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: C++, Python </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/sona-antony-b9a261255/">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="anshika.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Anshika Solanki</p>
+                            <p class="about-sec">Passionate about delving into the frontiers of computer science, my curiosity extends to a broad spectrum of technological realms. From algorithmic intricacies to system architecture, I am eager to explore various facets of technology. With a hunger for challenges, I am committed to pushing boundaries and fostering innovation in the ever-evolving landscape of computer science.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> CSS</p>
+                        <p> Mern </p>
+                        <p> SQL </p>
+                        <p> Node.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: JavaScript, C++ </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/anshika-solanki-398347261/">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="archie2.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Archie Sachdeva</p>
+                            <p class="about-sec">Passionate about exploring the frontiers of computer science, my curiosity extends to diverse technological realms. From algorithmic intricacies to system architecture, I am eager to delve into various facets of technology. With a hunger for challenges, I am committed to pushing boundaries and fostering innovation in the dynamic field of computer science.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> MAchine Learning</p>
+                        <p> C#</p>
+                        <p> JavaScript </p>
+                        <p> MongoDB </p>
+                        <p> Node.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: Java, Python </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="http://linkedin.com/in/archie-sachdeva-27400525a/">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="kavisha.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Kavisha Gupta</p>
+                            <p class="about-sec">Enthusiastic about delving into the forefront of computer science, my curiosity spans across diverse technological domains. From algorithmic complexities to system architecture, I am keen on exploring various facets of technology. Driven by challenges, I am dedicated to pushing boundaries and cultivating innovation in the ever-evolving realm of computer science.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> CSS</p>
+                        <p> Ruby </p>
+                        <p> SQLite </p>
+                        <p> Node.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: Java, C++ </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/kavisha-gupta-9b9693261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="hemlata.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Hemlata</p>
+                            <p class="about-sec">I am currently a second year student , pursuring CSE-AI at IGDTUW. I am interested to learn and explore new things.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> Angular</p>
+                        <p> Vue </p>
+                        <p> MongoDB </p>
+                        <p> Typescript </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: PHP, Python </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/hemlata-6bb985263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="tanya.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Tanya Rajput</p>
+                            <p class="about-sec">Eager to explore the forefront of computer science, I find fascination in its multifaceted domains. From unraveling complex algorithms to dissecting system architecture, I am driven by a thirst for knowledge across diverse technological spectrums. Embracing challenges as opportunities, I am dedicated to catalyzing innovation and propelling advancements within the dynamic field of computer science.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> Flutter</p>
+                        <p> CSS</p>
+                        <p> JavaScript </p>
+                        <p> SQL </p>
+                        <p> Three.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: Ruby, Python </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/tanya-rajput-715b55256">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="anshikaagg.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Anshika Aggarwal</p>
+                            <p class="about-sec">Excited to explore the forefront of computer science, I am captivated by its vast domains. From dissecting complex algorithms to understanding system architecture, my curiosity spans diverse technological realms. Embracing challenges as opportunities for growth, I am dedicated to igniting innovation and driving progress within the dynamic field of computer science.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> CSS</p>
+                        <p> JavaScript </p>
+                        <p> GraphQL </p>
+                        <p> Remix </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: C#, Python </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="https://www.linkedin.com/in/anshika-aggarwal-704847249/">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-card">
+                <div class="card-top half-width">
+                    <div class="part1">
+                        <!-- photo -->
+                        <div class="photod">
+                            <img class="photo" src="sanjan.jpg">
+                        </div>
+    
+                        <!-- Name and one line -->
+                        <div class="intro">
+                            <p class="name"> Sanjana Bamnawat</p>
+                            <p class="about-sec">Hello everyone, I'm Sanjana Bamnavat, a highly motivated and proactive student at Indira Gandhi Delhi Technical University for Women (IGDTUW), with a passion for UI/UX design and web development. Skilled in translating ideas into user-friendly interfaces and crafting seamless digital experiences.</p>
+                        </div> 
+    
+                    </div>
+    
+                    <div class="part2">
+                        <p> HTML5</p>
+                        <p> CSS</p>
+                        <p> Gatsby </p>
+                        <p> MongoDB </p>
+                        <p> React.js </p>
+                    </div>
+                </div>
+    
+                <div class="card-bottom">
+                    <div class="card-bottom-left">
+                        <!-- <p>&bull;&nbsp;&nbsp;20+ years of  experience in web development.</p> -->
+                        <p>&bull;&nbsp;&nbsp;Languages Known: Java, PHP </p>
+                        <!-- <p>&bull;&nbsp;&nbsp;Bagged first position in DevCation'22 </p> -->
+                    </div>
+    
+                    <div class="card-bottom-right">
+                        <!-- <p class="experience">
+                            <span style="background-color: white; font-weight:bolder; font-size:x-large;">5</span>
+                            <span style="background-color: white; display: inline;">Project Experience</span>
+                        </p> -->
+        
+                        <div class="collaborate">
+                            <a class="collaborate_box" href="http://www.linkedin.com/in/sanjana-bamnavat-368759259">Connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hm-footer-copyright">
+        <div class="row">
+            <div class="col-sm-5">
+                <p>
+                    &copy;copyright. designed and developed by <a href="#">Krishanyabhi</a>
+                </p>
+            </div>
+            <div class="col-sm-7">
+                <div class="footer-social">
+                    <span><i class="fa fa-phone"> +91 99999 88888</i></span>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+</footer>
+</body>
+
+</html>
