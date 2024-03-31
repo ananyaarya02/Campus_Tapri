@@ -29,7 +29,6 @@ With a commitment to innovation and excellence, we continuously improve our offe
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
-  
 </ul>
 
 
