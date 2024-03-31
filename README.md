@@ -22,6 +22,15 @@ With a commitment to innovation and excellence, we continuously improve our offe
 ![WhatsApp Image 2024-04-01 at 12 56 27 AM](https://github.com/ananyaarya02/Campus_Tapri/assets/122366898/9dadc1b0-9806-41aa-a674-e866e96108ad)
 
 
+<h2>Tech Stack</h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  
+</ul>
+
+
 
 
 
