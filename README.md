@@ -1,5 +1,5 @@
 # Campus_Tapri
-<h2>Live website: https://ananyaarya02.github.io/Campus_Tapri/</h2>
+<h1>Live website: https://ananyaarya02.github.io/Campus_Tapri/</h1>
 
 <ul>
 <li> Campus Tapri specializes in addressing diverse challenges faced by college students, ranging from academic hurdles to career uncertainties.</li>
