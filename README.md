@@ -4,7 +4,7 @@
 <ul>
 <li> Campus Tapri specializes in addressing diverse challenges faced by college students, ranging from academic hurdles to career uncertainties.</li>
 
-<li>We offer solutions and support tailored to each student's needs, providing assistance with fostering community connections and facilitating access to internships.</li>
+<li>We offer tailored solutions and support to each student's needs, providing assistance with fostering community connections and facilitating access to internships.</li>
 
 <li>Our platform includes a chatbot feature designed to address doubts promptly and efficiently.</li>
 
